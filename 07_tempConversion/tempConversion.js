@@ -1,8 +1,5 @@
-const convertToCelsius = function() {
-};
-
-const convertToFahrenheit = function() {
-};
+const convertToCelsius = farenheit => Math.round((farenheit - 32) * 5/9) + (((farenheit - 32) * 5/9)-(farenheit - 32) * 5/9).toFixed(1);
+const convertToFahrenheit = celcius => Math.round((celcius * 9/5) + 32)+(((celcius * 9/5) + 32)-((celcius * 9/5) + 32).toFixed(1));
 
 // Do not edit below this line
 module.exports = {
